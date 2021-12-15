@@ -136,7 +136,7 @@ strong{
     text-transform: uppercase;
 }
 
-@media screen and (min-width : 700px ) {
+@media screen and (min-width : 1050px ) {
     main{
         background : center / cover no-repeat url("../images/bg-desktop.png");
         flex-direction: row;
