@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+body{
+    font-family : 'Spartan', sans-serif;
+    font-size : 15px;
+    font-weight : 400;
+    padding : 20px;
+    line-height: 1.4;
+}
+
+.header{
+    padding : 30px;
+    text-align : center;
+}
+
+.header__title{
+    font-size: 2rem;
+    font-weight : 700;
+    color : hsl(300, 43%, 22%);
+    margin-bottom: 15px;
+}
+
+.header__p{
+    color : rgba(0,0,0,70%);
+}
+
+.ratings{
+    margin-bottom: 20px;
+}
+
+.ratings__rating{
+    background: hsl(300, 24%, 96%);
+    border-radius : 5px;
+    padding : 5px 0 10px 0;
+    margin-bottom : 10px;
+}
+
+.rating__stars{
+    width : 100px;
+    height : 30px;
+    content :'';
+    background : url(../images/icon-star.svg) center/20% repeat-x;
+    display : block;
+    margin : auto;
+    padding-bottom : 5px;
+}
+
+.rating__source{
+    text-align : center;
+    color : hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+
+.users-comments{
+    margin-top : 40px;
+    display : flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.user__comment{
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5px;
+    padding : 20px;
+    margin-bottom: 15px;
+}
+
+.user__comments__header{
+    margin-bottom : 10px;
+}
+
+.header__pic{
+    display: inline-block;
+    max-width: 100%;
+    width : 40px;
+    border-radius: 40px;
+    vertical-align : middle;
+    margin-right : 15px;
+}
+
+.header__user{
+    display : inline-block;
+    vertical-align : middle;
+}
+
+.user__name{
+    display : block;
+    color : white;
+    margin-bottom: 5px;
+    font-weight : 500;
+}
+
+.user__status{
+    color : hsl(333, 80%, 67%);
+}
+
+.usercomment__comment{
+    color : white;
+}
+
+@media (min-width : 930px){
+    .desktop-display{
+        display : flex;
+        justify-content: space-between;
+    }
+
+    .header{
+        width : 50%;
+        max-width : 400px;
+        padding : 50px 60px 10px 10px;
+        text-align : left;
+        margin-left : 5%;
+    }
+
+    .ratings{
+        width : 50%;
+        padding : 50px 10px;
+        display : flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top : 50px;
+    }
+
+    .ratings__rating{
+        display : inline-block;
+        width : 60%;
+        max-width : 350px;
+        padding : 5px 10px;
+        margin-bottom: 15px;
+    }
+    .rating__stars{
+        width : 60px;
+        height : 15px;
+        vertical-align : middle;
+        margin-right : 25px;
+        background-size: 20%;
+        display : inline-block;
+    }
+    .rating__source{
+        display: inline-block;
+        vertical-align : middle;
+    }
+
+    .ratings__rating:nth-child(2){
+        margin-left: 20%;
+    }
+    .ratings__rating:nth-child(3){
+        margin-left: 40%;
+    }
+
+    .users-comments{
+        flex-direction: row;
+    }
+
+    .user__comment{
+        /* width : 25%; */
+        width : 300px;
+        height : 180px;
+        padding : 30px;
+        margin-right: 10px;
+        margin-bottom : 50px;
+    }
+
+    .user__comment:nth-child(2){
+        margin-top: 25px;
+    }
+
+    .user__comment:nth-child(3){
+        margin-top: 50px;
+    }
+}

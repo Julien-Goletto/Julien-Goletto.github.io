@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight : 400;
+    font-size : 15px;
+    line-height : 1.6;
+    color : hsla(0, 0%, 100%, 0.75);
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    /*Déclaration des variables de dimensions*/
+    --width-desktop : calc(.6*1440px);
+    --width-mobile : calc(var(--width-desktop)/3.5);
+}
+
+.preview{
+    width : var(--width-desktop);
+    display : flex;
+    margin : 15px; /*TEST*/
+}
+
+.preview__card{
+    background-color: hsl(31, 77%, 52%);
+    border-radius : 10px 0 0 10px;
+    padding : 40px;
+    padding-right : 50px;
+}
+
+.card__vehicle-logo{
+    padding-left : 15px;
+    padding-bottom: 15px;
+}
+
+.card__vehicule-category{
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size : 2.5em;
+    font-weight: 700;
+    color : white;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.card__vehicule-description{
+    padding-bottom : 60px;
+}
+
+.card__learn-more{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight : 400;
+    font-size : 1.1em;
+    background-color: white;
+    padding : 15px 25px;
+    border : none;
+    border-radius: 30px;
+    color :hsl(31, 77%, 52%);
+}
+
+/*Modif de la forme pour la cat. SUVS*/
+.preview__card.suvs{
+    background-color: hsl(184, 100%, 22%);
+    border-radius : 0;
+}
+
+.card__learn-more.button-suvs{
+    color: hsl(184, 100%, 22%);
+}
+
+/*Modif de la forme pour la cat. luxury*/
+.preview__card.luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-radius : 0 10px 10px 0;
+}
+
+.card__learn-more.button-luxury{
+    color: hsl(184, 100%, 22%);
+}
+
+@media screen and (max-width : 850px){
+
+    body{
+        font-size : 12px;
+        height : auto;
+    }
+    .preview{
+        width : var(--width-mobile);
+        flex-direction: column;
+    }
+
+    .preview__card.sedans{
+        border-radius : 10px 10px 0 0;
+    }
+
+    .preview__card.luxury{
+        border-radius : 0 0 10px 10px;
+    }
+
+    .preview__card{
+        padding : 30px;
+        padding-right : 40px;
+    }
+    
+    .card__vehicule-description{
+        padding-bottom : 25px;
+    }
+}
