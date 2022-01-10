@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Frontend Mentor | Interactive pricing component</title>
+</head>
+<body>
+  <main id="main">
+    <header class="header">
+      <h1 class="header__catchphrase">Simple, traffic-based pricing</h1>
+      <h2 class="header__description">Sign-up for our 30-day trial. No credit card required.</h2>
+    </header>
+    <article class="container">
+      <div class="container__setting">
+        <div class="setting__pageviews">
+          <span class="setting__pageviews-number"></span>
+          <span class="setting__pageviews-number">Pageviews</span>
+        </div>
+        <input type="range" min="5" max="50"  step="5" name="fee" class="setting__slider" id="setting__slider">
+        <div class="setting__displayed-fee">
+          <span class="displayed-fee__number"></span>
+          <span class="displayed-fee__frequency">/ month</span>
+        </div>
+        <div class="setting__frequency">
+          <span class="frequency__monthly">Monthly Billing</span>
+          <label class="frequency__switch">
+            <input name="yearly__subscription" type="checkbox" id="frequency__slider">
+            <span class="slider"></span>
+          </label>
+          <div class="frequency__yearly">
+            <span class="yearly__tag">Yearly Billing</span>
+            <span class="yearly__discount">-25%</span>
+          </div>
+        </div>
+      </div>
+      <div class="container__subscribe">
+        <ul class="subscribe__services">
+          <li>Unlimited websites</li>
+          <li>100% data ownership</li>
+          <li>Email reports</li>
+        </ul>
+        <button type="button" name="trial-start" value="Start my trial" class="subscribe__button">Start my trial</button>
+      </div>
+    </article>
+  </main>
+  <script type="text/javascript" src="../js/app.js" ></script>
+</body>
+</html>
+
