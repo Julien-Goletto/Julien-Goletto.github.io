@@ -1,6 +1,6 @@
-#Welcome to Yves Signal's Book Frontend Projects
+# Welcome to Yves Signal's Book Frontend Projects
 
-##Introduction
+## Introduction
 Hi there, I'm Julien, a fullstack developper apprentice, currently studying at O'clock 'til May 2022.
 I welcome you to this modest project portfolio.
 All these projects are made on my free time, so they do not contain any school intellectual materials.
@@ -9,9 +9,11 @@ For now on, I'm a lot onto [Front End Mentor](https://www.frontendmentor.io/home
 I cared a lot crafting all of theses without any framework, for learning sake, and even if they are a lot perfectible, I'm quite pride of where I am at today.
 Once I finish a project, I move on, so the state of my early prototypes reflect the mindset I had then and possibly a lack of knowledge I learnt, becomming the best iteration of myself.
 
+All my stuff is acesible on GitHub and hosted with GitHub Pages, so you can play with it.
+
 Enough talking, let's take a glimpse at what I produced !
 
-##Front End Mentor Challenges
+## Front End Mentor Challenges
 
 All projects are listed in the order I made them, so you can appreciate the road I walked along to this day.
 
