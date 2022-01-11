@@ -6,10 +6,10 @@ I welcome you to this modest project portfolio.
 All these projects are made on my free time, so they do not contain any school intellectual materials.
 
 For now on, I'm a lot onto [Front End Mentor](https://www.frontendmentor.io/home) that provides me a lot of challenging prototypes to craft.
-I cared a lot crafting all of theses without any framework, for learning sake, and even if they are a lot perfectible, I'm quite pride of where I am at today.
-Once I finish a project, I move on, so the state of my early prototypes reflect the mindset I had then and possibly a lack of knowledge I learnt, becomming the best iteration of myself.
+I cared a lot crafting all of these without any framework, for learning sake, and even if they are a lot perfectible, I'm quite proud of where I am at today.
+Once I finish a project, I move on, so the state of my early prototypes reflect the mindset I had then and possibly a lack of knowledge I overcame, becomming today the best iteration of myself.
 
-All my stuff is acesible on GitHub and hosted with GitHub Pages, so you can play with it.
+All my stuffs are acesible on GitHub and hosted with GitHub Pages, so you can play with them.
 
 Enough talking, let's take a glimpse at what I produced !
 
@@ -61,7 +61,7 @@ All projects are listed in the order I made them, so you can appreciate the road
     </details>
 
 7. [Fylo Data Storage](https://julien-goletto.github.io/fylo-data-storage-component-master/html/)
-    - Gorgeous design and tricks for the bar progression and legend
+    - Gorgeous design and tricks for the bar progression and legend elements
     - [GitHub Repository](https://github.com/Julien-Goletto/Julien-Goletto.github.io/tree/main/fylo-data-storage-component-master)
     <details>
     <img src="./assets/img/fylo-data-storage-desktop.png"/>
